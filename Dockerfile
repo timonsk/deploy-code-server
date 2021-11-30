@@ -29,7 +29,6 @@ RUN code-server --install-extension auchenberg.vscode-browser-preview
 RUN code-server --install-extension dracula-theme.theme-dracula
 RUN code-server --install-extension vscode-icons-team.vscode-icons
 
-
 # Install apt packages:
 # RUN sudo apt-get install -y ubuntu-make
 RUN sudo apt install -y wget
